@@ -7,8 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="мемас" HorizontalAlignment="Left" Margin="305,158,0,0" VerticalAlignment="Top" Width="181" Height="141" Click="Button_Click"/>
+        <Button Content="мемас" HorizontalAlignment="Left" Margin="565,96,0,0" VerticalAlignment="Top" Width="181" Height="141" Click="Button_Click"/>
         <Button Content="выход" HorizontalAlignment="Left" Margin="565,277,0,0" VerticalAlignment="Top" Width="146" Height="75" Click="Button_Click_1"/>
-
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Height="25" Header="File">
+                <MenuItem Header="Open" Click="MenuItem_Click_1">
+                    <MenuItem Header="File1"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Save"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Exit" Click="MenuItem_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Image Name="DislpayImage" Margin="50,73,355,41" Stretch="Fill"/>
     </Grid>
 </Window>
