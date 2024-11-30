@@ -38,6 +38,16 @@ namespace WpfApp1
             
             
         }
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            
+            Combobox window = new Combobox();
+            window.Show();
+            this.Close();
+
+
+
+        }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {

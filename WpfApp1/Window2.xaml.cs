@@ -15,25 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для Window2.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window2 : Window
     {
-        private string _pass = "12345678";
-        private string _inputpass = "";
-        public Window1()
+        public Window2()
         {
             InitializeComponent();
-        }
-
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow window = new MainWindow();
-            window.Show();
-            this.Close();
-            
-            
         }
     }
 }

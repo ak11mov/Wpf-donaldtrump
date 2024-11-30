@@ -12,8 +12,11 @@
             <ColumnDefinition Width="751*"/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Button Content="Далее" HorizontalAlignment="Left" Margin="518.844,324,0,0" VerticalAlignment="Top" Width="188" Height="60" Click="Button_Click" Grid.Column="1"/>
-        
+        <TextBlock Name="txtDisplay" FontSize="25" Foreground="Red" Grid.Column="1" HorizontalAlignment="Left" Margin="288,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox Name="usrTxt" TextWrapping="Wrap"  FontSize="25" Grid.Column="1" HorizontalAlignment="Left" Height="44" Margin="304,263,0,0"  Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="далее" HorizontalAlignment="Left" Margin="506,70,0,0" VerticalAlignment="Top" Width="181" Height="141" Click="Button_Click" Grid.Column="1"/>
+        <PasswordBox Name="pswdTxt" HorizontalAlignment="Left" Margin="48,339,0,0" VerticalAlignment="Top" Height="45" RenderTransformOrigin="0.5,0.5" Width="303" Grid.Column="1"/>
+
 
     </Grid>
 </Window>
