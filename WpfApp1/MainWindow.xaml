@@ -27,9 +27,10 @@
                 <MenuItem Header="Save"></MenuItem>
                 <Separator/>
                 <MenuItem Header="Exit" Click="MenuItem_Click"></MenuItem>
-                   
+
             </MenuItem>
         </Menu>
         <Image Name ="DislpayImage" Margin="34,161,290,26"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="197,67,0,0" VerticalAlignment="Top" Width="113" Height="89" Click="Button_Click_4"/>
     </Grid>
 </Window>
